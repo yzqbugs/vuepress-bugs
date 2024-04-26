@@ -1,7 +1,5 @@
 # lang
 
-
-
 ```go
 package main
 
@@ -21,12 +19,11 @@ SetWorkingDir, %A_ScriptDir%
 
 ```js
 // 先选择最外层的ul
-let ul=document.querySelectorAll('.block-icon-list.clearfix')[1].children
+let ul = document.querySelectorAll(".block-icon-list.clearfix")[1].children;
 // 然后遍历子类li
-for (let li of ul){
-    li.querySelectorAll('.cover-item.iconfont.cover-item-line.icon-gouwuche1')[0].click()
+for (let li of ul) {
+  li.querySelectorAll(".cover-item.iconfont.cover-item-line.icon-gouwuche1")[0].click();
 }
-
 ```
 
 ```rust
@@ -76,7 +73,7 @@ void main(List<String> arguments) async {
 for i in range(1, 10):
         for j in range(1, i+1):
             # 打印语句中，大括号及其里面的字符 (称作格式化字段) 将会被 .format() 中的参数替换,注意有个点的
-            print('{}x{}={}\t'.format(i, j, i*j), end='')  
+            print('{}x{}={}\t'.format(i, j, i*j), end='')
         print()
 ```
 

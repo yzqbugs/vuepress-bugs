@@ -1,11 +1,15 @@
 {
+  "type": "module",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "devDependencies": {},
   "dependencies": {
     "@vuepress/plugin-search": "next",
+    "@vuepress/theme-default": "^2.0.0-rc.26",
     "vuepress": "next"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.9"
   }
 }
