@@ -10,7 +10,7 @@ export const helloPlugin =
 
         // 创建一个主页
         const helloPage = await createPage(app, {
-          path: "/hello",
+          path: "/hello.html",
           // 设置 frontmatter
           frontmatter: { title: "hello" },
           // 设置 markdown 内容
