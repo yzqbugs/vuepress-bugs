@@ -1,6 +1,6 @@
 import { createPage, type Page, type PluginFunction } from "vuepress/core";
 export const helloPlugin =
-  (options?:any): PluginFunction =>
+  (options?: any): PluginFunction =>
   (app) => {
     console.log("hello");
     return {

@@ -1,12 +1,11 @@
 ## vuepress
 
-
 ## add a hello plugin
 
 ```typescript
 import { createPage, type Page, type PluginFunction } from "vuepress/core";
 export const helloPlugin =
-  (options?:any): PluginFunction =>
+  (options?: any): PluginFunction =>
   (app) => {
     console.log("hello");
     return {
@@ -32,18 +31,14 @@ export const helloPlugin =
       },
     };
   };
-
 ```
 
 and register this plugin in config.ts[https://github.com/yzqbugs/vuepress-bugs/blob/main/docs/.vuepress/config.ts]
 
 ```typescript
 export default defineUserConfig({
-  plugins: [
-    helloPlugin(),
-  
-  ],
-})
+  plugins: [helloPlugin()],
+});
 ```
 
 finally the /hello page not found
