@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as l,a as e}from"./app-iGUZTM2Q.js";const _={},c=e("h1",null,"欢迎来到",-1),s=e("p",null,"这是 hello",-1),n=[c,s];function a(r,h){return t(),l("div",null,n)}const i=o(_,[["render",a],["__file","hello.html.vue"]]);export{i as default};
