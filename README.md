@@ -34,3 +34,17 @@ export const helloPlugin =
   };
 
 ```
+
+and register this plugin in config.ts[https://github.com/yzqbugs/vuepress-bugs/blob/main/docs/.vuepress/config.ts]
+
+```typescript
+export default defineUserConfig({
+  plugins: [
+    helloPlugin(),
+  
+  ],
+})
+```
+
+finally the /hello page not found
+https://yzqbugs.github.io/vuepress-bugs/hello.html
